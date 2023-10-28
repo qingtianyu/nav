@@ -89,11 +89,14 @@ export interface ISettings {
   theme: ThemeType
   appTheme: ThemeType
   footerContent?: string|null
+  headerContent?: string|null
   baiduStatisticsUrl?: string
   cnzzStatisticsUrl?: string
   iconfontUrl?: string
   showGithub: boolean
   showLanguage: boolean
+  showCopy: Boolean|undefined
+  showShare: Boolean|undefined
 
   simThemeImages: Record<string, string>[]
   simThemeDesc: string
